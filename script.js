@@ -21,7 +21,6 @@ function createBubbles() {
 createBubbles();
 
 //mailjs
-<script>
   document.getElementById("contactForm").addEventListener("submit", function(e) {
     e.preventDefault();
 
@@ -40,7 +39,6 @@ createBubbles();
       }
     );
   });
-</script>
   
   
   
