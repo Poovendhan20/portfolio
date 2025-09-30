@@ -359,7 +359,11 @@
       transform: translateY(20px);
       transition: all 0.5s ease;
     }
-    
+     /* Contact form placeholders */
+  #contactForm ::placeholder {
+    color: rgba(255, 255, 255, 0.7); /* slightly transparent white */
+    opacity: 1; /* ensures color works in all browsers */
+  }
     .timeline-item.visible {
       opacity: 1;
       transform: translateY(0);
